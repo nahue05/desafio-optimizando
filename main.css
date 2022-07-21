@@ -1,0 +1,160 @@
+/*gradients*/
+.gradients {
+  background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation-name: cambiar;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 4s; }
+
+  @keyframes cambiar {
+    0% {
+      background-position: 0% 50%; }
+    50% {
+      background-position: 100% 50%; }
+    100% {
+      background-position: 0% 50%; } }
+/*css index*/
+.main-header {
+  height: auto;
+  border-style: solid;
+  border-color: #1d1c1c;
+  animation: cambiar 10s ease-in-out infinite; }
+.logo {
+  width: auto;
+  height: 70px; }
+  .twitter {
+    height: 50px;
+    width: auto; }
+  
+  .instagram {
+    height: 50px;
+    width: auto; }
+  
+  .facebook {
+    height: 50px;
+    width: auto; }
+  
+  .whatsapp {
+    height: 50px;
+    width: auto; }
+  .titulo {
+  font-size: 3rem;
+  font-weight: 200;
+  font-family: 'Lobster', cursive; }
+.navegador {
+  padding-top: 150px;
+  width: 100%; }
+  .navegador ul {
+    list-style-type: none; }
+    .navegador ul li:hover {
+      background-color: #d38623; }
+  .navegador li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fcf7f7; }
+    .navegador li a:hover {
+      color: #666e17; }
+.social a img {
+  padding: 5px 15px;
+  float: right; }
+.seccion-1 {
+  background-image: url(./imagenes/fondopg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 470px;
+  width: 100%;
+  background-position: center; }
+.seccion-2 {
+  background-color: #bba76f;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 35px;
+  padding-bottom: 35px; }
+  .seccion-2 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center; }
+  .seccion-2 p {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+.seccion-3 {
+  background-image: url(./imagenes/fondoseccion3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+  background-position: center; }
+.footer h2 {
+  font-size: 24px; }
+.footer a {
+  font-size: 20px; }
+.footer-linkreg, .seccion-2 {
+  padding-bottom: 20px; }
+
+/*css registrarse*/
+.reg-navegador ul {
+    list-style-type: none; }
+    .reg-navegador ul li:hover {
+      background-color: #d38623; }
+  .reg-navegador li {
+    display: inline-block;
+    font-size: 1em;
+    color: #fcf7f7;
+    font-family: 'Josefin Sans', sans-serif; }
+    .reg-navegador li a:hover {
+      color: #666e17; }
+  .reg-header {
+    background-color: #bba76f;
+    text-align: center;
+    width: 100%; }
+    .reg-header nav {
+      text-align: right;
+      padding-right: 10px; }
+    .reg-header h2 {
+      font-size: 2em;
+      font-family: 'Grape Nuts', cursive;
+      font-weight: 300;
+      height: 50px; }
+  #registrarse {
+    background-image: url(./imagenes/mainregfondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center; }
+  .formulario {
+    display: flex;
+    display: grid;
+    width: 75%;
+    height: 40%;
+    margin: 160px auto 50px auto;
+    padding: 40px 30px;
+    grid-template-areas: "form foto-reg";
+    justify-content: space-around; }
+    .formulario form p {
+      padding: 10px 0px 0px 0px;
+      text-align: left; }
+    .formulario form h3 {
+      padding-bottom: 20px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 500;
+      text-align: center; }
+    .table {
+      background-color: antiquewhite;
+      }
+      /*general*/
+.footer {
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
+        padding: 20px;
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+      
+      }
